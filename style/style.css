@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: var();
 }
 
-.header{
-    background-color: #000;
+
+.banner-container{
+    max-width: 1440px;
+    height: 652px;
+    border: 2px solid black;
+    background-color: white;
+    background-image: url(../assets/Hero-bg.png);
+}
+
+.banner-text-container{
+    width: 50%;
+}
+
+.banner-image-container{
+
 }
