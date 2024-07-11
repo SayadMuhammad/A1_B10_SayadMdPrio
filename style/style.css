@@ -1,41 +1,87 @@
+/* -------------------universal------------------- */
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: "Poppins", sans-serif;
 }
 
+/* -------------------navigation bar------------------- */
+.navbar{
+    display: flex;
+    padding: 30px 100px;
+}
+
+.download{
+    margin-left: auto;
+}
+
+.download-button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.download-button a {
+    color: white;
+    display: inline-block;
+    padding: 0;
+}
+
+.download-button:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* -------------------banner section------------------- */
 .banner-container{
     max-width: 1440px;
     height: 652px;
     background-color: white;
     background-image: url(../assets/Hero-bg.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.banner-items{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
 }
 
 .banner-text-container{
     position: static;
     width: 998px;
     height: 136px;
-
+    text-align: center;
 }
 
-.navbar{
-    display: flex;
-}
-
-.footer{
-    display: flex;
+.banner-header{
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .contact-button {
     padding: 10px 20px;
     background-color: #000000;
     color: white;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     font-size: 16px;
     text-align: center;
     border-radius: 7px;
+    margin-top: 20px;
 }
 
 .contact-button a {
@@ -45,50 +91,212 @@
     padding: 0;
 }
 
-.contact-button:hover a {
-    color: white;
-    text-decoration: none;
-}
-
 .contact-button:hover {
     background-color: #555;
     color: white;
 }
 
+/* -------------------webdev section------------------- */
+.webdev{
+    background-color: #FAFAFB;
+    margin: 20px 100px;
+    /* padding-top: 80px; */
+    padding-bottom: 1px;
+    border-radius: 15px;
+}
 
-.download-button {
+.webdev-header{
+    position: static;
+    text-align: center;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coding{
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 15px;
+}
+
+.help{
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 15px;
+}
+
+.change{
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 15px;
+}
+
+/* -------------------inspiration section------------------- */
+.inspiration{
+    margin: 20px 100px;
+    /* padding-top: 80px; */
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+.youtube{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+    text-align: center;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+/* -------------------current target section------------------- */
+.current-main{
+    margin: 20px 100px;
+    /* padding-top: 80px; */
+    padding-bottom: 1px;
+    text-align: center; 
+}
+
+.current{
+    display: flex;
+    flex-direction: row;
+}
+
+.html{
+    background-color: #fff6f4;
+    padding: 50px;
+    margin: 80px;
+    border-radius: 15px;
+}
+
+.css{
+    background-color: #f2f6fe;
+    padding: 50px;
+    margin: 80px;
+    border-radius: 15px;
+}
+
+.js{
+    background-color: #fffdf2;
+    padding: 50px;
+    margin: 80px;
+    border-radius: 15px;
+}
+
+/* -------------------next target section------------------- */
+.next-main{
+    margin: 20px 100px;
+    /* padding-top: 80px; */
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+.next{
+    display: flex;
+    flex-direction: column;
+}
+
+#next-to-learn{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 50px;
+    margin: 80px;
+    border-radius: 15px;
+}
+
+.node{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 50px;
+    margin: 80px;
+    border-radius: 15px;
+}
+
+.mongo{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 50px;
+    margin: 80px;
+    border-radius: 15px;
+}
+
+/* -------------------support section------------------- */
+.support-banner{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 50px;
+    margin: 80px;
+    border-radius: 15px;
+    background-image: url(../assets/handshake.jpg);
+}
+
+.support-text{
+    color: white;
+    text-align: center;
+}
+
+.support-form{
+    text-align: center;
+}
+
+.submit-form{
+    border-radius: 10px;
+}
+
+.submit-button {
     padding: 10px 20px;
     background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    border: #000000;
     cursor: pointer;
     font-size: 16px;
     text-align: center;
     border-radius: 7px;
 }
 
-.download-button a {
+.submit-button a {
     color: white;
-    text-decoration: none;
     display: inline-block;
     padding: 0;
 }
 
-.download-button:hover a {
-    color: white;
-    text-decoration: none;
-}
-
-.download-button:hover {
+.submit-button:hover {
     background-color: #555;
     color: white;
 }
-    
 
-.support-banner{
-    background-image: url(../assets/handshake.jpg);
+/* -------------------footer section------------------- */
+.footer {
+    background-color: #f7f8f8;
+    padding: 20px 40px; /* Add space on left and right */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.support-text{
-    color: white;
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px; /* Add space between icons */
+}
+
+.social-link img {
+    width: 30px;
+    height: 30px;
 }
