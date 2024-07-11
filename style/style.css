@@ -123,6 +123,11 @@
     display: flex;
 }
 
+.webdev-text{
+    padding: 0px 50px;
+
+}
+
 #webdev-learn-button{
     padding: 10px 20px;
     background-color: #ffffff;
@@ -143,6 +148,10 @@
 #webdev-learn-button:hover{
     background-color: #555;
     color: white;
+}
+
+#webdev-learn-space{
+    padding-top: 12px;
 }
 
 .coding{
@@ -169,21 +178,26 @@
 /* -------------------inspiration section------------------- */
 .inspiration{
     margin: 20px 100px;
-    /* padding-top: 80px; */
+    padding-top: 70px;
     padding-bottom: 1px;
     text-align: center;
+}
+
+.inspiration-text{
+    padding: 0px 90px;
 }
 
 .youtube-body{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .youtube{
     position: static;
-    width: 1076px;
-    height: 550px;
+    width: 1150px;
+    height: 650px;
     flex: none;
     order: 0;
     align-self: stretch;
@@ -201,14 +215,18 @@
 /* -------------------current target section------------------- */
 .current-main{
     margin: 20px 100px;
-    /* padding-top: 80px; */
+    padding-top: 70px;
     padding-bottom: 1px;
-    text-align: center; 
+    text-align: center;
 }
 
 .current{
     display: flex;
     flex-direction: row;
+}
+
+.current-text{
+    padding: 0px 90px;
 }
 
 .html{
@@ -243,6 +261,10 @@
 .next{
     display: flex;
     flex-direction: column;
+}
+
+.next-text{
+    padding: 0px 60px;
 }
 
 #next-to-learn{
@@ -315,7 +337,6 @@ textarea::placeholder{
 .submit-button{
     padding: 10px 20px;
     background-color: #ffffff;
-    cursor: pointer;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -338,7 +359,7 @@ textarea::placeholder{
 /* -------------------footer section------------------- */
 .footer{
     background-color: #f7f8f8;
-    padding: 20px 40px;
+    padding: 30px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
