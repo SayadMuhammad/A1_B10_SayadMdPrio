@@ -59,18 +59,26 @@
     margin-bottom: 150px;
 }
 
+.banner-logo{
+    padding-top: 15px;
+}
+
 .banner-text-container{
     position: static;
     width: 998px;
     height: 136px;
     text-align: center;
-    /* font-weight: bolder; */
+    padding-top: 20px;
 }
 
 .banner-header{
     font-size: larger;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.contact-space{
+    margin-top: 10px;
 }
 
 .contact-button{
@@ -100,32 +108,65 @@
 
 /* -------------------webdev section------------------- */
 .webdev{
+    display: flex;
+    flex-direction: column;
     background-color: #FAFAFB;
-    margin: 20px 100px;
-    /* padding-top: 80px; */
-    padding-bottom: 1px;
+    width: 1150px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 70px;
     border-radius: 15px;
 }
 
 .webdev-header{
-    position: static;
     text-align: center;
     padding: 70px;
+    padding-bottom: 0px;
     display: flex;
     flex-direction: column;
 }
 
-#webdev{
-    background-color: #ffffff;
-    padding: 50px;
-    margin: 100px;
-    border-radius: 15px;
-    display: flex;
-}
-
 .webdev-text{
     padding: 0px 50px;
+}
 
+#webdev-text-align{
+    padding-right: 100px;
+}
+
+#webdev-box{
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 40px 100px 0px 100px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#webdev-img{
+    width: 200px;
+    height: 200px;
+}
+
+.coding{
+    background: linear-gradient(to right, white, #FAFAFB);
+}
+
+.help{
+    background: linear-gradient(to left, white, #FAFAFB);
+}
+
+.help-text{
+    margin-left: 30px;
+}
+
+.help-learn{
+    margin-left: 30px;
+}
+
+.change{
+    background: linear-gradient(to right, white, #FAFAFB);
 }
 
 #webdev-learn-button{
@@ -152,18 +193,7 @@
 
 #webdev-learn-space{
     padding-top: 12px;
-}
-
-.coding{
-    background: linear-gradient(to right, white, #FAFAFB);
-}
-
-.help{
-    background: linear-gradient(to left, white, #FAFAFB);
-}
-
-.change{
-    background: linear-gradient(to right, white, #FAFAFB);
+    font-weight: bold;
 }
 
 #learn-more{
@@ -220,61 +250,77 @@
     text-align: center;
 }
 
-.current{
-    display: flex;
-    flex-direction: row;
-}
-
 .current-text{
     padding: 0px 90px;
+}
+
+.current-box{
+    display: flex;
+    flex-direction: row;
+    margin: 80px;
+    margin-top: 0px;
+}
+
+#current-img-gap{
+    padding-bottom: 20px;
 }
 
 .html{
     background-color: #fff6f4;
     padding: 50px;
-    margin: 80px;
+    margin: 20px;
     border-radius: 15px;
 }
 
 .css{
     background-color: #f2f6fe;
     padding: 50px;
-    margin: 80px;
+    margin: 20px;
     border-radius: 15px;
 }
 
 .js{
     background-color: #fffdf2;
     padding: 50px;
-    margin: 80px;
+    margin: 20px;
     border-radius: 15px;
 }
 
 /* -------------------next target section------------------- */
 .next-main{
     margin: 20px 100px;
-    /* padding-top: 80px; */
     padding-bottom: 1px;
     text-align: center;
-}
-
-.next{
-    display: flex;
-    flex-direction: column;
 }
 
 .next-text{
     padding: 0px 60px;
 }
 
+.next-box{
+    display: flex;
+    flex-direction: column;
+}
+
 #next-to-learn{
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
-    border-radius: 16px;
     padding: 50px;
-    margin: 80px;
+    width: 1150px;
+    margin: 0 auto;
     border-radius: 15px;
     display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#next-img{
+    width: 80%;
+    height: 80%;
+}
+
+#next-img-gap{
+    padding-right: 20px;
 }
 
 /* -------------------support section------------------- */
@@ -282,8 +328,11 @@
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+    width: 1150px;
     padding: 30px;
-    margin: 80px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
     border-radius: 15px;
     background-image: url(../assets/handshake.jpg);
     background-size: cover;
@@ -311,7 +360,7 @@
 .support-text{
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 20px 150px 10px 150px;
 }
 
 .submit-form{
